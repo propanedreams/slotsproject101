@@ -147,7 +147,7 @@ const game = () => {
         balance += winnings;
         console.log("you won, $" + winnings.toString());
         if (balance <=0){
-            console.log("no money, bitch");
+            console.log("no money, bitch. Come back with some more");
             break;
         }
         const playAgain = prompt("Do you want to waste more money? (y/n): ")
