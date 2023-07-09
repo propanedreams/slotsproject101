@@ -152,6 +152,7 @@ const game = () => {
         }
         const playAgain = prompt("Do you want to waste more money? (y/n): ")
         if (playAgain != "y"){
+            console.log("dank u, cum again");
             break;
         }
     }
